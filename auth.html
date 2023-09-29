@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1600' height='900' preserveAspectRatio='none' viewBox='0 0 1600 900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1260%26quot%3b)' fill='none'%3e%3crect width='1600' height='900' x='0' y='0' fill='rgba(141%2c 195%2c 250%2c 1)'%3e%3c/rect%3e%3cpath d='M906.6560399629899 663.2729838068359L1173.1290919250375 639.9596126250023 1149.8157207432039 373.4865606629547 883.3426687811562 396.7999318447883z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M204.353%2c66.18C230.351%2c65.338%2c252.946%2c51.244%2c267.264%2c29.527C283.49%2c4.918%2c296.672%2c-26.059%2c282.04%2c-51.648C267.344%2c-77.35%2c233.92%2c-82.027%2c204.353%2c-80.498C177.83%2c-79.126%2c153.361%2c-66.889%2c139.439%2c-44.273C124.773%2c-20.449%2c119.791%2c9.724%2c133.966%2c33.843C147.988%2c57.702%2c176.693%2c67.076%2c204.353%2c66.18' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M996.672%2c297.002C1018.316%2c296.393%2c1037.249%2c284.796%2c1049.172%2c266.721C1062.677%2c246.248%2c1073.223%2c220.532%2c1061.227%2c199.14C1049.063%2c177.449%2c1021.529%2c172.318%2c996.672%2c173.1C973.408%2c173.831%2c950.737%2c183.017%2c938.786%2c202.99C926.526%2c223.48%2c926.277%2c249.492%2c938.796%2c269.825C950.773%2c289.277%2c973.837%2c297.644%2c996.672%2c297.002' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1107.049%2c941.495C1167.521%2c938.8%2c1212.019%2c889.442%2c1239.057%2c835.284C1263.017%2c787.291%2c1260.77%2c732.241%2c1235.004%2c685.194C1208.064%2c636.004%2c1163.132%2c593.942%2c1107.049%2c594.249C1051.37%2c594.553%2c1010.393%2c638.986%2c981.495%2c686.58C951.094%2c736.649%2c927.075%2c795.486%2c952.957%2c848.034C981.406%2c905.795%2c1042.726%2c944.362%2c1107.049%2c941.495' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1216.9142215280067-41.58222064377311L1297.5080056031388 148.2848362403152 1487.3750624872273 67.69105216518301 1406.781278412095-122.17600471890532z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M183.668%2c710.484C236.377%2c707.042%2c275.764%2c668.32%2c302.822%2c622.956C330.76%2c576.116%2c350.857%2c520.539%2c325.885%2c472.053C299.157%2c420.156%2c242.007%2c393.691%2c183.668%2c391.599C121.03%2c389.353%2c54.898%2c407.453%2c22.618%2c461.18C-10.444%2c516.209%2c-0.712%2c586.578%2c34.123%2c640.502C66.131%2c690.051%2c124.805%2c714.328%2c183.668%2c710.484' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1399.92%2c523.144C1422.793%2c523.063%2c1440.368%2c506.054%2c1452.556%2c486.699C1465.859%2c465.573%2c1477.604%2c440.262%2c1466.044%2c418.133C1453.878%2c394.844%2c1426.191%2c385.5%2c1399.92%2c385.937C1374.472%2c386.36%2c1349.364%2c397.754%2c1337.5%2c420.272C1326.271%2c441.584%2c1334.135%2c466.482%2c1346.631%2c487.076C1358.557%2c506.73%2c1376.931%2c523.226%2c1399.92%2c523.144' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M514.3977869987334 180.50885805294746L351.5367568737005-13.581359692154308 157.44653912859872 149.2796704328786 320.30756925363164 343.36988817798033z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M111.42944730843949 523.5490072259083L154.29447394321363 405.7783144625453-43.79407851921785 400.36612089206557z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1424.660412538945 264.68809684098846L1559.137181575401 183.8863021529171 1370.696105025066 22.572045942268574z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1510.9716228857733 600.4567664846618L1514.9163520712011 374.4633828077584 1284.97823920887 596.512037299234z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M351.23386379787337-33.53224585982441L172.86092157227014-52.2799975445351 332.4861121131627 144.84069636577883z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M56.697107741776264 627.9472222106491L-65.23626491426657 713.325888903744 20.142401778828344 835.2592615597869 142.07577443487116 749.8805948666919z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M410.094%2c412.625C467.273%2c408.996%2c521.877%2c385.796%2c551.319%2c336.645C581.581%2c286.124%2c581.329%2c224.171%2c554.331%2c171.833C524.724%2c114.436%2c474.618%2c65.626%2c410.094%2c62.868C341.308%2c59.928%2c278.183%2c99.46%2c242.796%2c158.519C206.353%2c219.34%2c194.991%2c297.567%2c233.981%2c356.788C270.278%2c411.918%2c344.221%2c416.806%2c410.094%2c412.625' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1260'%3e%3crect width='1600' height='900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #80a3f2;
+            color: white;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        /* Notification styles */
+        .notification {
+            display: none;
+            position: fixed;
+            top: 50px; /* Adjust this value based on your navigation bar height */
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        .notification.error {
+            background-color: #f44336;
+        }
+
+        .forms-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            margin-top: -40px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            position: relative; /* Ensure positioning context for absolute positioning */
+            width: 300px;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Position the buttons at the bottom right corner */
+        .bottom-right {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        TOUR WISE
+    </header>
+
+    <!-- Notification banners -->
+    <div id="successNotification" class="notification"></div>
+    <div id="errorNotification" class="notification error"></div>
+
+    <div class="forms-container">
+        <form id="signupForm">
+            <h2>Sign Up</h2>
+            <label for="registerEmail">Email:</label>
+            <input type="email" id="registerEmail" name="registerEmail" required>
+
+            <label for="registerPassword">Password:</label>
+            <input type="password" id="registerPassword" name="registerPassword" required>
+
+            <button type="button" onclick="register()">Sign Up</button>
+
+            <!-- Login button in the signup form -->
+            <button class="bottom-right" type="button" onclick="showLoginForm()">Login</button>
+        </form>
+
+        <form id="loginForm" style="display: block;">
+            <h2>Login</h2>
+            <label for="loginUsername">Email:</label>
+            <input type="email" id="loginEmail" name="loginEmail" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+
+            <button type="button" onclick="login()">Login</button>
+
+            <!-- Sign Up button in the login form -->
+            <button class="bottom-right" type="button" onclick="showSignupForm()">Sign Up</button>
+        </form>
+    </div>
+
+    <script>
+        function showSignupForm() {
+            document.getElementById("signupForm").style.display = "block";
+            document.getElementById("loginForm").style.display = "none";
+        }
+
+        function showLoginForm() {
+            document.getElementById("signupForm").style.display = "none";
+            document.getElementById("loginForm").style.display = "block";
+        }
+
+        function login() {
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+
+            // Send a POST request to the Flask server for login
+            fetch('https://mtq.pythonanywhere.com/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, password }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'OK') {
+                    showSuccessNotification('Login successful!');
+                } else {
+                    showErrorNotification('Login failed: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function register() {
+            const email = document.getElementById('registerEmail').value;
+            const password = document.getElementById('registerPassword').value;
+
+            // Send a POST request to the Flask server for registration
+            fetch('https://mtq.pythonanywhere.com/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, password }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'User registered successfully') {
+                    showSuccessNotification('Registration successful! You can now login.');
+                    // Show the login form after successful registration
+                    showLoginForm();
+                } else {
+                    showErrorNotification('Registration failed: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function showSuccessNotification(message) {
+            const successNotification = document.getElementById('successNotification');
+            successNotification.textContent = message;
+            successNotification.style.display = 'block';
+
+            // Hide the notification after 3 seconds
+            setTimeout(() => {
+                successNotification.style.display = 'none';
+            }, 3000);
+        }
+
+        function showErrorNotification(message) {
+            const errorNotification = document.getElementById('errorNotification');
+            errorNotification.textContent = message;
+            errorNotification.style.display = 'block';
+
+            // Hide the notification after 3 seconds
+            setTimeout(() => {
+                errorNotification.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
